@@ -49,46 +49,46 @@ session_start();
 		<![endif]-->
     <style>
         #navigation {
-          background: #FF4E50;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          background: salmon;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, crimson, salmon);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, crimson, salmon); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
           
         }
-        #header {
-  
-            background: pink;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        #header { 
+			border-top:2px solid red;
+            background: blue;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, darkblue, blue);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, darkblue, blue); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   
         }
         #top-header {
               
   
-            background: #870000;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: blue;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, blue, aqua);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, blue, aqua); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
         }
         #footer {
-            background: #7474BF;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: aqua;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #348AC7, #aqua);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #348AC7, aqua); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
           color: #1E1F29;
         }
         #bottom-footer {
-            background: #7474BF;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: pink;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, green, pink);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, green,pink); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
           
 
         }
         .footer-links li a {
-          color: #1E1F29;
+          color: white;
         }
         .mainn-raised {
             
@@ -126,7 +126,7 @@ session_start();
 			<div id="top-header">
 				<div class="container">
 					<ul class="header-links pull-left">
-						<li><a href="#"><i class="fa fa-phone"></i> +628914000203</a></li>
+						<li><a href="#"><i class="fa fa-phone"></i> +6281914000203</a></li>
 						<li><a href="#"><i class="fa fa-envelope-o"></i> kurniawandicky105@gmail.com</a></li>
 						<li><a href="#"><i class="fa fa-map-marker"></i>Medan</a></li>
 					</ul>
