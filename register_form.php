@@ -1,9 +1,34 @@
-    <div class="wait overlay">
+<div class="wait overlay">
         <div class="loader"></div>
     </div>
     <style>
+    .billing-details {
+        border:1px solid blue;
+        border-radius: 50px 20px;
+        background-color :aqua;
+    }
     .input-borders{
+        border: 1px solid blue;
         border-radius:30px;
+    }
+    
+    .wait overlay{
+        background-color:green;
+    }
+    
+    .gambar{
+        background-position: center;
+        background-size:0 350px;
+        top:110px;
+        position:relative;
+        left:150px;
+        border-radius:50%;
+        width :100px;
+        height:55px;
+    }
+    
+    .login100-form-title{
+        text-shadow:-5px 5px 3px red;
     }
     </style>
 				<!-- row -->
@@ -17,9 +42,10 @@
 								<form id="signup_form" onsubmit="return false" class="login100-form">
 									<div class="billing-details jumbotron">
                                     <div class="section-title">
+                                        <img class="gambar" src="img/wi.png">
                                         <h2 class="login100-form-title p-b-49" >Register Here</h2>
                                     </div>
-                                    <div class="form-group ">
+                                    <div class="form-group">
                                     
                                         <input class="input form-control input-borders" type="text" name="f_name" id="f_name" placeholder="First Name">
                                     </div>
